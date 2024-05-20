@@ -80,7 +80,7 @@ def main():
             else:
                 st.warning("Please consult a healthcare professional.")
         else:
-            st.write('Please enter the valid weight and height.')
+            st.write('Please enter valid weight and height.')
 
 if __name__ == '__main__':
     main()
