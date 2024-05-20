@@ -25,7 +25,7 @@ jobs:
 
     - name: Run tests
       run: |
-        streamlit run bmi_calculator.py --server.headless true --browser.serverAddress 0.0.0.0 --browser.gatherUsageStats false
+        streamlit run BMI/bmi_calculator.py --server.headless true --browser.serverAddress 0.0.0.0 --browser.gatherUsageStats false
 
     - name: Deploy to Streamlit Sharing
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
